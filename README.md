@@ -1,1 +1,1 @@
-# traffic_sign_recognititon_usign_CNN
+Traffic sign detection and recognition using Convolutional Neural Networks
