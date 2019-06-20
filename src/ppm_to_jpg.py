@@ -2,9 +2,9 @@ from PIL import Image
 import cv2
 import numpy as np
 import os
-os.path.splitext('/home/user/somefile.txt')[0]+'.jpg'
 
 path_class = "C:/Users/ninaf/Desktop/GTSRB/Final_Training/Images/"
+#path_class = "C:/Users/ninaf/Desktop/TrainIJCNN2013/"
 
 # Read ground truth file of c(lassification)
 gt_data_20 = np.genfromtxt(path_class + "00000/" + "GT-00000.csv", delimiter = ";", dtype=None, skip_header=1)
